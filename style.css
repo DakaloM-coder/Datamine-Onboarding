@@ -1,1 +1,50 @@
-/* Placeholder CSS file */ body { font-family: Arial; background-color: #f5faff; color: #003366; }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5faff;
+  color: #003366;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #cce0f5;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+main {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+}
+.card {
+  background: #e6f2ff;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #003366;
+  border-radius: 8px;
+}
+footer {
+  text-align: center;
+  background: #cce0f5;
+  padding: 10px;
+  margin-top: 20px;
+}
